@@ -1,0 +1,32 @@
+.sidebar-first, .sidebar-second, .content-main, .main-column-one, .main-column-two, .main-column-three {
+    float: left;
+    width: 24%;
+}
+.content-main {
+    width: 48%;
+}
+.main-column-one, .main-column-two, .main-column-three {
+    margin-left: 1%;
+}
+.sidebar-second {
+    float: right;
+}
+.twocol-right .content-main, .twocol-grantees-map .content-main, .twocol-left .content-main {
+    width: 74%;
+}
+.threecol .sidebar-first, ..twocol-grantees-map .sidebar-first, twocol-left .sidebar-first {
+    margin-right: -24%;
+}
+.threecol .content-main, .twocol-grantees-map .content-main, .twocol-left .content-main {
+    margin-left: 26%;
+    margin-right: -100%;
+}
+.fourcol-t1 .sidebar-first {
+    margin-left: -100%;
+}
+.fourcol-t1 .main-column-one {
+    margin-left: 26%;
+}
+#edit-buttons {
+    clear:both;
+}
